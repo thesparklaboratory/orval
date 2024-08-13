@@ -7696,12 +7696,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.26.1":
-  version: 0.26.1
-  resolution: "axios@npm:0.26.1"
+"axios@npm:^0.28.0":
+  version: 0.28.1
+  resolution: "axios@npm:0.28.1"
   dependencies:
-    follow-redirects: "npm:^1.14.8"
-  checksum: 10c0/77ad7f1e6ca04fcd3fa8af1795b09d8b7c005b71a31f28d99ba40cda0bdcc12a4627801d7fac5efa62b9f667a8402bd54c669039694373bc8d44f6be611f785c
+    follow-redirects: "npm:^1.15.0"
+    form-data: "npm:^4.0.0"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 10c0/0437f851bb3552645cb44151bddeecf6bc85b41ea8f355f954fb5338f922d8ddcd255fc1eeffe83d9dd175dcdc1fb613f546ba607fa96cd33670738b30f7ca60
   languageName: node
   linkType: hard
 
@@ -8007,7 +8009,7 @@ __metadata:
   resolution: "basic@workspace:basic"
   dependencies:
     "@faker-js/faker": "npm:^8.0.2"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     msw: "npm:^2.0.2"
     npm-run-all: "npm:^4.1.5"
     orval: "link:../../packages/orval/dist"
@@ -12250,7 +12252,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.8, follow-redirects@npm:^1.15.6":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.0, follow-redirects@npm:^1.15.6":
   version: 1.15.6
   resolution: "follow-redirects@npm:1.15.6"
   peerDependenciesMeta:
@@ -17360,6 +17362,12 @@ __metadata:
   languageName: node
   linkType: soft
 
+"orval@workspace:packages/orval/dist":
+  version: 0.0.0-use.local
+  resolution: "orval@workspace:packages/orval/dist"
+  languageName: unknown
+  linkType: soft
+
 "os-tmpdir@npm:~1.0.2":
   version: 1.0.2
   resolution: "os-tmpdir@npm:1.0.2"
@@ -19497,7 +19505,7 @@ __metadata:
     "@types/node": "npm:^14.14.13"
     "@types/react": "npm:^17.0.0"
     "@types/react-dom": "npm:^17.0.0"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     msw: "npm:^2.0.2"
     orval: "link:../../packages/orval/dist"
     prettier: "npm:^3.0.3"
@@ -19604,7 +19612,7 @@ __metadata:
     "@types/react": "npm:^17.0.0"
     "@types/react-dom": "npm:^17.0.0"
     ajv: "npm:^8.11.0"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     msw: "npm:^2.0.2"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
@@ -19624,7 +19632,7 @@ __metadata:
     "@types/node": "npm:^14.14.13"
     "@types/react": "npm:^17.0.0"
     "@types/react-dom": "npm:^17.0.0"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     faker: "npm:^5.5.3"
     msw: "npm:^2.0.2"
     orval: "link:../../../packages/orval/dist"
@@ -19664,7 +19672,7 @@ __metadata:
   resolution: "react-query-form-data-mutator@workspace:react-query/form-data-mutator"
   dependencies:
     "@faker-js/faker": "npm:^8.0.2"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
@@ -19677,7 +19685,7 @@ __metadata:
   resolution: "react-query-form-data@workspace:react-query/form-data"
   dependencies:
     "@faker-js/faker": "npm:^8.0.2"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
@@ -19690,7 +19698,7 @@ __metadata:
   resolution: "react-query-form-url-encoded-mutator@workspace:react-query/form-url-encoded-mutator"
   dependencies:
     "@faker-js/faker": "npm:^8.0.2"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
@@ -19703,7 +19711,7 @@ __metadata:
   resolution: "react-query-form-url-encoded@workspace:react-query/form-url-encoded"
   dependencies:
     "@faker-js/faker": "npm:^8.0.2"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
@@ -19716,7 +19724,7 @@ __metadata:
   resolution: "react-query-hook-mutator@workspace:react-query/hook-mutator"
   dependencies:
     "@faker-js/faker": "npm:^8.0.2"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
     react: "npm:^18.2.0"
@@ -22218,7 +22226,7 @@ __metadata:
     "@types/node": "npm:^14.14.13"
     "@types/react": "npm:^17.0.0"
     "@types/react-dom": "npm:^17.0.0"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     msw: "npm:^2.0.2"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
@@ -23824,7 +23832,7 @@ __metadata:
     "@testing-library/vue": "npm:^8.0.1"
     "@vitejs/plugin-vue": "npm:^4.5.0"
     "@vue/compiler-sfc": "npm:3.2.36"
-    axios: "npm:^0.26.1"
+    axios: "npm:^0.28.0"
     jsdom: "npm:^23.0.0"
     msw: "npm:^2.0.2"
     orval: "link:../../packages/orval/dist"
