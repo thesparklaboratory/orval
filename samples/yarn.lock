@@ -12995,17 +12995,17 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:^4.20240208.0"
     "@hono/zod-validator": "npm:^0.2.0"
-    hono: "npm:^4.0.4"
+    hono: "npm:^4.5.8"
     orval: "link:../../packages/orval/dist"
     wrangler: "npm:^3.25.0"
     zod: "npm:^3.23.8"
   languageName: unknown
   linkType: soft
 
-"hono@npm:^4.0.4":
-  version: 4.4.0
-  resolution: "hono@npm:4.4.0"
-  checksum: 10c0/4bc8695f0bfdf1214d5ff020105199abe4e50fce69d217ca64beec2eec624a2c837521b694570cfbe15ec94b84b2a878f9c8dc64769e43f7eae765c12c714c64
+"hono@npm:^4.5.8":
+  version: 4.5.8
+  resolution: "hono@npm:4.5.8"
+  checksum: 10c0/873f9d901d6df7bc482997fc60d99261b566756be80146d1f901b71d64c89379b31e145ff4ea19b57ddca026730249c64a3ef641e4c29019eebcb9aa9f8c9cfc
   languageName: node
   linkType: hard
 
@@ -17358,6 +17358,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "orval@link:../../packages/orval/dist::locator=vue-query-basic%40workspace%3Avue-query%2Fvue-query-basic"
   languageName: node
+  linkType: soft
+
+"orval@workspace:packages/orval/dist":
+  version: 0.0.0-use.local
+  resolution: "orval@workspace:packages/orval/dist"
+  languageName: unknown
   linkType: soft
 
 "os-tmpdir@npm:~1.0.2":
