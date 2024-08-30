@@ -17360,6 +17360,12 @@ __metadata:
   languageName: node
   linkType: soft
 
+"orval@workspace:packages/orval/dist":
+  version: 0.0.0-use.local
+  resolution: "orval@workspace:packages/orval/dist"
+  languageName: unknown
+  linkType: soft
+
 "os-tmpdir@npm:~1.0.2":
   version: 1.0.2
   resolution: "os-tmpdir@npm:1.0.2"
@@ -22108,7 +22114,7 @@ __metadata:
     msw: "npm:^2.0.2"
     orval: "link:../../../packages/orval/dist"
     prettier: "npm:^3.0.3"
-    svelte: "npm:^3.54.0"
+    svelte: "npm:^4.2.19"
     svelte-check: "npm:^3.0.1"
     tslib: "npm:^2.4.1"
     typescript: "npm:^4.9.3"
@@ -22134,13 +22140,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"svelte@npm:^3.54.0":
-  version: 3.59.2
-  resolution: "svelte@npm:3.59.2"
-  checksum: 10c0/3482d020b291c6784e372315d63e3ab5530b8389adbd739a369d69ec995929276ebbc1cbdf8e5382c9dd887a55ec655702769de85836270e1a4a0ab3e0247b34
-  languageName: node
-  linkType: hard
-
 "svelte@npm:^4.2.18":
   version: 4.2.18
   resolution: "svelte@npm:4.2.18"
@@ -22160,6 +22159,28 @@ __metadata:
     magic-string: "npm:^0.30.4"
     periscopic: "npm:^3.1.0"
   checksum: 10c0/33cb321b59d0d29730f44054e442adcfdb6f6b51968c60e4027a2d2aa59cba2e2360aa42b4c61b0223350eacfe8dbeb3b724476d03fffb89a3c87021edbb1562
+  languageName: node
+  linkType: hard
+
+"svelte@npm:^4.2.19":
+  version: 4.2.19
+  resolution: "svelte@npm:4.2.19"
+  dependencies:
+    "@ampproject/remapping": "npm:^2.2.1"
+    "@jridgewell/sourcemap-codec": "npm:^1.4.15"
+    "@jridgewell/trace-mapping": "npm:^0.3.18"
+    "@types/estree": "npm:^1.0.1"
+    acorn: "npm:^8.9.0"
+    aria-query: "npm:^5.3.0"
+    axobject-query: "npm:^4.0.0"
+    code-red: "npm:^1.0.3"
+    css-tree: "npm:^2.3.1"
+    estree-walker: "npm:^3.0.3"
+    is-reference: "npm:^3.0.1"
+    locate-character: "npm:^3.0.0"
+    magic-string: "npm:^0.30.4"
+    periscopic: "npm:^3.1.0"
+  checksum: 10c0/77700133e90f86da3072ebfd5e8546b4ebe7296424bd65f89a7247fbcbae5dc56f56d15154e2a929ee3aa7da018cb5d5db24b99b7cb72f0ba2db2ad966d603dc
   languageName: node
   linkType: hard
 
